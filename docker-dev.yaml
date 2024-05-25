@@ -43,7 +43,7 @@ services:
     entrypoint:
     - sleep
     - infinity
-    image: docker/dev-environments-default:stable-1
+    image: nginx
     init: true
     volumes:
     - type: bind
